@@ -1,3 +1,4 @@
+#######################################################3
 class BookStore:
     NoOfBooks = 0  
 
@@ -8,8 +9,7 @@ class BookStore:
 
     def Display(self):
         print(f"{self.Name} by {self.Author}. No of books: {BookStore.NoOfBooks}")
-
-
+        
 Obj1 = BookStore("Linux System Programming", "Robert Love")
 Obj1.Display()
 
